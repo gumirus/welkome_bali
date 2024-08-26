@@ -1,0 +1,20 @@
+{%extends 'app/base.html'%} {% load static %} {% block title %} Главная
+{%endblock %} {% block content %}
+
+<div class="card-girls">
+  <div class="girl-card">
+    <img src="{% static 'img/girl.png' %}" class="girl-img" alt="Мария" />
+    <div class="person">Ольга - менеджер проектов</div>
+  </div>
+  <div class="girl-card">
+    <img src="{% static 'img/girl3.png' %}" class="girl-img" alt="Ольга" />
+    <div class="person"> Мария - дизайнер</div>
+  </div>
+  <div class="girl-card">
+    <img src="{% static 'img/girl2.png' %}" class="girl-img" alt="Елена" />
+    <div class="person">Елена - программист JavaScript</div>
+  </div>
+  <p>Наши красотки</p>
+</div>
+
+{%endblock%}

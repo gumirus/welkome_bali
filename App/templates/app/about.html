@@ -1,0 +1,75 @@
+{% extends 'app/base.html' %} {% load static %} {% block title %} О Нас {% endblock %} {% block content %}
+
+<main class="card-girls">
+  <h1>О нашей компании</h1>
+  <p>
+    Наша компания была основана в 2000 году с целью предоставления
+    высококачественных услуг в области IT. Мы находимся на Бали и гордимся нашей
+    командой специалистов.
+  </p>
+  <p>
+    Мы стремимся к инновациям и всегда ищем новые пути для улучшения наших
+    услуг. Наша команда состоит из опытных профессионалов в различных областях,
+    что позволяет нам предоставлять комплексные решения для наших клиентов.
+  </p>
+
+  <div class="table">
+      <table>
+        <tr class="main">
+          <th colspan="3">Наши специалисты</th>
+        </tr>
+        <tr>
+          <th>Имя</th>
+          <th>Профессия</th>
+          <th>Стаж</th>
+        </tr>
+        <tr>
+          <td>Иван</td>
+          <td>Руководитель</td>
+          <td>25 лет</td>
+        </tr>
+        <tr>
+          <td>Мария</td>
+          <td>Менеджер проектов</td>
+          <td>30 лет</td>
+        </tr>
+        <tr>
+          <td>Алексей</td>
+          <td>Программист Python</td>
+          <td>5 лет</td>
+        </tr>
+        <tr>
+          <td>Елена</td>
+          <td>Программист JavaScript</td>
+          <td>3 года</td>
+        </tr>
+        <tr>
+          <td>Дмитрий</td>
+          <td>Веб-разработчик</td>
+          <td>7 лет</td>
+        </tr>
+        <tr>
+          <td>Ольга</td>
+          <td>Дизайнер</td>
+          <td>10 лет</td>
+        </tr>
+        <tr>
+          <td>Анна</td>
+          <td>Аналитик продаж</td>
+          <td>4 года</td>
+        </tr>
+      </table>
+  </div>
+  <div class="forma">
+    <h3>Оставить заявку</h3>
+    <form>
+      <label for="name">Ваше имя:</label>
+      <input id="name" type="text" placeholder="Введите ваше имя" />
+      <label for="email">E-mail:</label>
+      <input id="email" type="email" placeholder="Введите ваш e-mail" />
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+</main>
+
+{% endblock %}

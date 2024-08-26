@@ -1,0 +1,45 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block title %}
+Контакты
+{% endblock %}
+
+{%block content %}
+
+<table class="table">
+  <tr>
+    <th colspan="5" >Контакты</th>
+  </tr>
+  <tr>
+    <th>Отдел</th>
+    <th>Контактное лицо</th>
+    <th>Телефон</th>
+    <th>Email</th>
+    <th>Адрес</th>
+  </tr>
+  <tr>
+    <td>Общий офис</td>
+    <td>Иван Иванов</td>
+    <td>+62 123 456 789</td>
+    <td>info@company.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+  <tr>
+    <td>Техническая поддержка</td>
+    <td>Мария Петрова</td>
+    <td>+62 987 654 321</td>
+    <td>support@company.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+  <tr>
+    <td>Отдел продаж</td>
+    <td>Алексей Смирнов</td>
+    <td>+62 456 789 012</td>
+    <td>sales@company.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+</table>
+
+{% endblock %}
